@@ -28,12 +28,13 @@ class mqConsumerInterface:
         # Establish Channel
 
         # Create Queue if not already present
-
+ 
         # Create the exchange if not already present
-
+   
         # Bind Binding Key to Queue on the exchange
-
+  
         # Set-up Callback function for receiving messages
+  
         pass
 
     def on_message_callback(
@@ -42,7 +43,6 @@ class mqConsumerInterface:
         # Acknowledge message
 
         #Print message (The message is contained in the body parameter variable)
-
         pass
 
     def startConsuming(self) -> None:
@@ -55,7 +55,6 @@ class mqConsumerInterface:
         # Print "Closing RMQ connection on destruction"
         
         # Close Channel
-
         # Close Connection
         
         pass
